@@ -7,6 +7,10 @@
 
 `yarn add strnow --dev`
 
+or
+
+`npm add strnow --save-dev`
+
 ## Usage
 ```javascript
 const strnow = require('strnow');
