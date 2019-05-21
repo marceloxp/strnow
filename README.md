@@ -9,7 +9,7 @@
 
 or
 
-`npm add strnow --save-dev`
+`npm install strnow --save-dev`
 
 ## Usage
 ```javascript
