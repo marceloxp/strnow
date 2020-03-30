@@ -5,8 +5,8 @@
   "main": "strnow.js",
   "repository": "git@github.com:marceloxp/strnow.git",
   "author": "MarceloXP <marceloxp@gmail.com>",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
-    "date-and-time": "^0.6.2"
+    "date-and-time": "^0.13.1"
   }
 }
