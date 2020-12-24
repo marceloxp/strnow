@@ -7,6 +7,6 @@
   "author": "MarceloXP <marceloxp@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "date-and-time": "^0.13.1"
+    "date-and-time": "^0.14.2"
   }
 }
