@@ -1,12 +1,12 @@
 {
   "name": "strnow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get formated date and time (YYYY-MM-DD HH:mm:ss)",
   "main": "strnow.js",
   "repository": "git@github.com:marceloxp/strnow.git",
   "author": "MarceloXP <marceloxp@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "date-and-time": "^0.13.1"
+    "date-and-time": "^2.4.1"
   }
 }
