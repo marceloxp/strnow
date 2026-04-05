@@ -1,12 +1,43 @@
 {
-  "name": "strnow",
-  "version": "1.0.2",
-  "description": "Get formated date and time (YYYY-MM-DD HH:mm:ss)",
-  "main": "strnow.js",
-  "repository": "git@github.com:marceloxp/strnow.git",
-  "author": "MarceloXP <marceloxp@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "date-and-time": "^2.4.1"
-  }
+    "name": "strnow",
+    "version": "2.0.0",
+    "description": "Get current date and time formatted as YYYY-MM-DD HH:mm:ss",
+    "author": "marceloxp",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marceloxp/strnow.git"
+    },
+    "type": "module",
+    "main": "./dist/strnow.cjs",
+    "module": "./dist/strnow.js",
+    "exports": {
+        ".": {
+            "import": "./dist/strnow.js",
+            "require": "./dist/strnow.cjs"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "node build.js",
+        "test": "node --test test/*.test.js",
+        "test:source": "node --test test/source.test.js",
+        "test:build": "npm run build && node --test test/build.test.js",
+        "prepublishOnly": "npm run build && npm test"
+    },
+    "dependencies": {
+        "date-and-time": "^4.4.0"
+    },
+    "devDependencies": {
+        "esbuild": "^0.25.0"
+    },
+    "keywords": [
+        "date",
+        "time",
+        "now",
+        "format",
+        "YYYY-MM-DD"
+    ]
 }
