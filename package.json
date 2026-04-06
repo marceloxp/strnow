@@ -6,7 +6,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/marceloxp/strnow.git"
+        "url": "git+https://github.com/marceloxp/strnow.git"
     },
     "type": "module",
     "main": "./dist/strnow.cjs",
